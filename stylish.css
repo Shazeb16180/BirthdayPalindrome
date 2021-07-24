@@ -1,0 +1,100 @@
+header{
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+body{
+    background:#FBBF24;
+    color: white;
+}
+#txtC{
+    color:#4C1D95;
+}
+p{
+    font-weight: bolder;
+    font-size:5rem;
+    max-width: 100%;
+    width: 630px;
+    
+    margin: 10px;
+    margin-top:8rem;
+    box-sizing: border-box;
+}
+section p{
+    font-weight: bolder;
+    max-width: 100%;
+    width: 375px;
+    
+    margin: 10px;
+    margin-top:3rem;
+    box-sizing: border-box;
+
+}
+a{
+    margin-top:3px;
+    margin-left:10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 1rem;
+    display: block;
+    width: 70px;
+    text-decoration: none;
+}
+
+#img1{
+    background-image:url("calender1.jpg");
+    width:500px;
+    max-width: 100%;
+    height: 500px;
+    background-size: cover;
+    float:right;
+    margin: 20px;
+}
+section{
+    text-align: center;
+    margin: 20px;
+}
+#txt1{
+    max-width: 100%;
+    width: 450px;
+    margin: 10px auto;
+}
+#txt1 p{
+    font-size: x-large;
+}
+#txt2{
+    font-size: large;
+    margin: auto;
+    width: 17rem;
+}
+#success{
+    font-size: x-large;
+    margin: auto;
+    width: 15rem;
+    margin-bottom: 5px;
+    display: none;
+    
+
+}
+button{
+    margin:auto;
+    border-radius: 5px;
+    display: block;
+    height: 40px;
+    background:#4C1D95 ;
+    color: white;
+}
+input{
+    margin: 45px;
+    height: 30px;
+    border-radius: 7px;
+    background: transparent;
+    color: white;
+}
+#gif{
+    display: none;
+}
+#error{
+    display: none;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Palindrome</title>
+    <link href="stylish.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div style=" float: left;">
+            <p>Check Your <span id="txtC">Birthday</span> is <span id="txtC">Palindrome</span> or Not</p>
+            <a href="#date">Let's Go</a>
+        </div>
+        <div id="img1">
+            <div style="width:70px; height:55px;background: #FBBF24;margin-left: 20px;"></div>
+            <div style="width:41px; height:43px;background: #FBBF24; margin-top:2px;margin-left: 92px;"></div>
+        </div>
+    </header>
+    <section>
+        <div id="txt1">
+            <p>Enter your birthdate and we will tell you if your birthdate is a palindrome
+            </p>
+        </div>
+            <div id="txt2"> app checks your birthdate in this format  mm-dd-yyyy
+                e.g. if your birthdate is 01-08-1995, then app will check for  01081995</div>
+            <form onsubmit="checkDate();return false">
+                <input type="date" id="date" required>
+                <div id="gif"><img src="spin.gif"/></div>
+                <div id="success">Whoa!!! Your birthdate in format 12-02-2021 is palindrome</div>
+                <div id="error">Awww! Your birthdate is not palindrome. Nearest palindrome date is <span id="er1"></span> You missed it by <span id="er2"> days</span> days.</div>
+                <button>Check</button>
+            </form>
+    </section>
+    <script src="app.js" type="text/javascript"></script>
+    
+    <script src="moment.js"></script>
+
+</body>
+
+</html>
