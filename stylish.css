@@ -7,16 +7,17 @@ header{
 body{
     background:#FBBF24;
     color: white;
+    scroll-behavior: smooth;
 }
 #txtC{
     color:#4C1D95;
 }
 p{
+    margin-left: auto;
     font-weight: bolder;
     font-size:5rem;
+    width: 550px;
     max-width: 100%;
-    width: 630px;
-    
     margin: 10px;
     margin-top:8rem;
     box-sizing: border-box;
@@ -91,6 +92,7 @@ input{
     border-radius: 7px;
     background: transparent;
     color: white;
+    border: 1px solid #4C1D95;
 }
 #gif{
     display: none;
